@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.controls.MainMenuController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="480.0" prefWidth="640.0" spacing="20.0">
+         <children>
+            <Button alignment="TOP_CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#switchToNewGame" prefHeight="32.0" prefWidth="90.0" style="-fx-font-family: Courier New;" text="New Game" />
+            <Button alignment="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#switchToLoadGame" prefHeight="32.0" prefWidth="90.0" style="-fx-font-family: Courier New;" text="Load Game" />
+            <Button alignment="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#switchToSettings" prefHeight="32.0" prefWidth="90.0" style="-fx-font-family: Courier New;" text="Settings">
+               <font>
+                  <Font name="Skia" size="13.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" focusTraversable="false" mnemonicParsing="false" onAction="#switchToExit" prefHeight="32.0" prefWidth="90.0" style="-fx-font-family: Courier New;" text="Exit">
+               <font>
+                  <Font name="Snell Roundhand" size="13.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <Label layoutX="251.0" layoutY="20.0" text="Tamagotchi">
+         <font>
+            <Font name="Luminari" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

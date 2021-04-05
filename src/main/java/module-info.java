@@ -1,7 +1,8 @@
-module org.example {
+module world.ucode {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
 
-    opens org.example to javafx.fxml;
-    exports org.example;
+    opens world.ucode.controls to javafx.fxml;
+    exports world.ucode;
 }

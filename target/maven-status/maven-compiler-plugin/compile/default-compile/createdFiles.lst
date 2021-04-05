@@ -1,4 +1,12 @@
-org/example/PrimaryController.class
+world\ucode\controls\LoadGameController.class
+world\ucode\utlits\Calculation.class
+world\ucode\controls\GameOverController.class
 module-info.class
-org/example/App.class
-org/example/SecondaryController.class
+world\ucode\controls\MainMenuController.class
+world\ucode\Pokemonchik.class
+world\ucode\App.class
+world\ucode\controls\NewGameController.class
+world\ucode\controls\Settings.class
+world\ucode\controls\StartGameController.class
+world\ucode\utlits\Database.class
+world\ucode\utlits\CircularIterator.class

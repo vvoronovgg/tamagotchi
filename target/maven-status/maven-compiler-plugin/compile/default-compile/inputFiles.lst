@@ -1,4 +1,12 @@
-/Users/vvoronov/Desktop/Tamagotchi2.0/Tamagotchi2.0/src/main/java/org/example/SecondaryController.java
-/Users/vvoronov/Desktop/Tamagotchi2.0/Tamagotchi2.0/src/main/java/org/example/App.java
-/Users/vvoronov/Desktop/Tamagotchi2.0/Tamagotchi2.0/src/main/java/module-info.java
-/Users/vvoronov/Desktop/Tamagotchi2.0/Tamagotchi2.0/src/main/java/org/example/PrimaryController.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\controls\GameOverController.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\controls\MainMenuController.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\controls\Settings.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\Pokemonchik.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\utlits\Calculation.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\utlits\Database.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\App.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\controls\NewGameController.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\module-info.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\controls\LoadGameController.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\utlits\CircularIterator.java
+C:\Users\menta\Desktop\Tamagotchi2.0\src\main\java\world\ucode\controls\StartGameController.java

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.controls.StartGameController">
+   <children>
+      <Label fx:id="name_pokemon" alignment="CENTER" layoutX="92.0" layoutY="79.0" prefHeight="27.0" prefWidth="95.0" style="-fx-font-family: Courier New;" text="Name" />
+      <ImageView fx:id="id_img" fitHeight="150.0" fitWidth="200.0" layoutX="93.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141414" height="54.0" layoutX="38.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141414" height="54.0" layoutX="558.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141414" height="54.0" layoutX="428.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141414" height="54.0" layoutX="298.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141414" height="54.0" layoutX="168.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <ImageView fx:id="food" fitHeight="54.0" fitWidth="87.0" layoutX="39.0" layoutY="405.0" onMouseClicked="#feed" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/chicken.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="health" fitHeight="54.0" fitWidth="87.0" layoutX="299.0" layoutY="405.0" onMouseClicked="#treat" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/heart.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="weed" fitHeight="54.0" fitWidth="87.0" layoutX="429.0" layoutY="405.0" onMouseClicked="#smoked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/weed.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fatigue" fitHeight="54.0" fitWidth="87.0" layoutX="559.0" layoutY="405.0" onMouseClicked="#fatigued" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/sleep.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="water" fitHeight="54.0" fitWidth="87.0" layoutX="169.0" layoutY="405.0" onMouseClicked="#drunk" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/water.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="stats" alignment="TOP_LEFT" layoutX="466.0" layoutY="116.0" prefHeight="238.0" prefWidth="156.0" text="Stats" />
+      <ImageView fitHeight="31.0" fitWidth="65.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#switchToMainMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/arrowback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

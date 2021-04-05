@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="534.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="world.ucode.controls.NewGameController">
+   <children>
+      <Label layoutX="260.0" layoutY="20.0" text="New Game">
+         <font>
+            <Font name="Luminari" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="98.0" style="-fx-font-family: Courier New;" text="Name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name_pokemon" layoutX="265.0" layoutY="96.0" promptText="name_pokemon" style="-fx-font-family: Courier New;" text="Pikacu" />
+      <ImageView fx:id="pika_img" fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="31.0" fitWidth="65.0" layoutX="14.0" layoutY="25.0" onMouseClicked="#switchToMainMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/arrowback.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow_left" fitHeight="49.0" fitWidth="90.0" layoutX="222.0" layoutY="341.0" onMouseClicked="#arrow_left_clicked" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../../img/arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrow_right" fitHeight="49.0" fitWidth="90.0" layoutX="361.0" layoutY="341.0" onMouseClicked="#arrow_right_clicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/arrow.png" />
+         </image>
+      </ImageView>
+      <Button focusTraversable="false" layoutX="290.0" layoutY="419.0" mnemonicParsing="false" onAction="#switchToStartGame" style="-fx-font-family: Courier New;" text="Start" />
+   </children>
+</Pane>
